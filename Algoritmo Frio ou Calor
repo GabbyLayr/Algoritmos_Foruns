@@ -1,0 +1,19 @@
+algoritmo FrioOuCalor;
+// Síntese
+// Objetivo: mostrar a temperatura e dizer que roupa o usuario deve sar
+// Entrada: temperatura
+// Saída: mensagem de frio ou calor
+
+
+diretor
+// Declarações
+temperatura;
+// Instruções
+escreva ("informe a temperatura:");
+leia (temperatura);
+se (temperatura <10) então
+escreva ("usar roupa de frio");
+Senão (temperatura> 10) então
+escreva ("usar roupa de calor");
+fimSe
+fimPrincipal
